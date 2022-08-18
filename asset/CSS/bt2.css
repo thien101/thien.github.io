@@ -1,0 +1,254 @@
+/* 
+1.Header
+2.Content
+    intro
+    description
+    features
+    update-version
+    community
+    download
+    contact
+3.Footer
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.extra-header {
+    padding-bottom: 70px;
+    background-color: #f2f2f2;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 100px;
+}
+
+.header-logo .logo-img{
+    height: 32px;
+}
+
+.header-menu {
+    /* margin-right: 100px; */
+    font-size: 30px;
+}
+
+.header-menu:hover {
+    color: #f29431 !important;
+}
+
+.content {
+    
+}
+/* BeGin INTRODUCTION*/
+.content .content__intro {
+    background-color: #c8e8e0;
+    padding: 40px 0;
+}
+
+
+.content__intro .container-intro {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fff;
+    width: 940px;
+}
+
+.content__intro .container-intro {
+    display: flex;
+}
+
+.content__intro .intro__AboutUs {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.intro__AboutUs .AboutUs__header {
+    color: #808080 !important;
+    letter-spacing: 4px;
+}
+
+.intro__AboutUs .AboutUs__desc {
+    font-size: 30px;
+    line-height: 1;
+    font-weight: 400;
+}
+
+.intro__AboutUs .AboutUs__list {
+    font-size: 12px;
+    list-style-type: none;
+}
+
+.AboutUs__list .list_icon {
+    
+}
+
+.intro__AboutUs .AboutUs__list p {
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 8px;
+    line-height: 2;
+}
+.container__pro .pro__btn,
+.intro__AboutUs .AboutUs__btn {
+    text-decoration: none;
+    color: #fff;
+    background-color: #2e937a;
+    margin-right: auto;
+    padding: 14px 45px;
+    font-size: 14px;
+    border-radius: 8px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+.container__pro .pro__btn:hover,
+.intro__AboutUs .AboutUs__btn:hover {
+    background-color: #000;
+    opacity: 0.8;
+}
+
+.container-intro .intro__Show {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* background-color: #000;
+    opacity: 0.6; */
+}
+
+.intro__Show .show-img{
+    max-height: 500px;
+}
+
+.content__intro .intro__process {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.intro__process .pro_text {
+    font-size: 60px;
+}
+
+.intro__process .pro_pragh {
+    font-size: 33px;
+}
+
+.intro__process .box-btn {
+    display: block;
+    margin-top: 46px;
+}
+
+.container-intro .container__pro {
+    padding-top: 50px;
+    background-color: #c8e8e0;
+    text-align: center;
+}
+.container__pro .pro_text {
+    display: inline-block;
+    font-size: 55px;
+    font-weight: 400;
+    line-height: 1.1;
+    margin-top: 60px;
+}
+
+.container__pro .pro_pragh {
+    display: inline-block;
+    width: 600px;
+    font-size: 17px;
+    line-height: 2;
+    margin-top: 33px;
+}
+
+.container__pro .box-btn {
+    margin-top: 40px;
+}
+
+ 
+
+/* END INTRODUCTION*/
+.content .content__description {
+
+}
+
+.content__description .container-desc {
+    max-width: 1080px;
+    margin: 60px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.container-desc .desc-text {
+    font-size: 55px;
+    width: 620px;
+    line-height: 1.1;
+    color: #2e937a;
+    margin-top: 60px;
+    margin-left: 48px;
+} 
+
+.container-desc .desc-para {
+    margin-top: 22px;
+    font-size: 18px;
+    width: 600px;
+    opacity: 0.6;
+    line-height: 1.6;
+    margin-left: 48px;
+    font-weight: 500;
+}
+
+.container-desc .desc-item .user-item {
+    font-size: 50px;
+}
+
+.container-desc .desc-list {
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container-desc .desc-list .desc-item {
+    width: 300px;
+    padding: 45px 25px;
+}
+
+.container-desc .desc-item .item-text {
+    font-size: 20px;
+    margin-top: 48px;
+    font-weight: 400;
+}
+
+.container-desc .desc-item .item-para {
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 1.6;
+    opacity: 0.7;
+}
+
+.content .content__features {
+
+}
+.content .content__version {
+
+}
+.content .content__community {
+
+}
+.content .content__download {
+
+}
+.content .content__contact {
+
+}

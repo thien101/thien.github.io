@@ -1,0 +1,30 @@
+
+/* PC */
+@media (min-width: 1024px) {    
+    
+}
+
+@media (max-width: 1023px) {
+
+    .body-content {
+        margin: 46px 20px 0;
+        grid-gap: 33px;
+    }
+}
+
+/* tablet */
+@media (min-width: 790px) and (max-width: 1023px) {
+
+    .body-content .content-item {
+        width: 350px;
+        float: left;
+    }
+}
+
+/* Mobile */
+@media (max-width: 789px) {
+
+    .body-content .content-item {
+        width: 530px;
+    }
+}
